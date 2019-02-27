@@ -15,6 +15,7 @@
 		0B1AD5352226BD8300778356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD5332226BD8300778356 /* LaunchScreen.storyboard */; };
 		0B1AD53D2226BF7D00778356 /* RootViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AD53C2226BF7D00778356 /* RootViewTableViewController.swift */; };
 		0B1AD53F2226C31E00778356 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AD53E2226C31E00778356 /* ChildViewController.swift */; };
+		0B1AD5412226CB4200778356 /* UITabBarController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AD5402226CB4200778356 /* UITabBarController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0B1AD5362226BD8300778356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B1AD53C2226BF7D00778356 /* RootViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewTableViewController.swift; sourceTree = "<group>"; };
 		0B1AD53E2226C31E00778356 /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		0B1AD5402226CB4200778356 /* UITabBarController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				0B1AD52A2226BD7E00778356 /* FirstViewController.swift */,
 				0B1AD52C2226BD7E00778356 /* MasterViewController.swift */,
 				0B1AD53E2226C31E00778356 /* ChildViewController.swift */,
+				0B1AD5402226CB4200778356 /* UITabBarController+Extension.swift */,
 				0B1AD53C2226BF7D00778356 /* RootViewTableViewController.swift */,
 				0B1AD52E2226BD7F00778356 /* Main.storyboard */,
 				0B1AD5312226BD8300778356 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 				0B1AD5292226BD7E00778356 /* AppDelegate.swift in Sources */,
 				0B1AD53D2226BF7D00778356 /* RootViewTableViewController.swift in Sources */,
 				0B1AD52B2226BD7E00778356 /* FirstViewController.swift in Sources */,
+				0B1AD5412226CB4200778356 /* UITabBarController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

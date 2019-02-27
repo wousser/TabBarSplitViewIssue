@@ -42,6 +42,7 @@ class RootViewTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(#function)
         let childViewController = self.storyboard?.instantiateViewController(withIdentifier: "childVC") as! ChildViewController
+        childViewController.shouldHideTabBar = true
         showDetailViewController(childViewController, sender: nil)
     }
 
